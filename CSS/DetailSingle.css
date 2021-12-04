@@ -7,7 +7,7 @@
    text-decoration: none;
 }
 body {
-   height: 3000px;
+   height: 1000px;
 }
 /* DropDown */
 header {
@@ -72,6 +72,7 @@ header nav ul li:hover > ul {
    flex-wrap: wrap;
    background: linear-gradient(to right, rgb(32, 176, 243), rgb(107, 5, 240), rgb(233, 38, 240));
    height: 100vh;
+   width: 100%;
 }
 
 img {
@@ -147,7 +148,7 @@ header label {
 /* end */
 
 /* Media Query */
-@media (max-width: 1000px) {
+@media screen and(max-width: 1000px) {
    header {
       padding: 20px;
    }
@@ -157,7 +158,7 @@ header label {
    }
 }
 
-@media (max-width: 700px) {
+@media screen and (max-width: 700px) {
    header label {
       display: initial;
    }
@@ -197,7 +198,7 @@ header label {
 
    img {
       width: 190px;
-      transform: translate(7.4rem, -6rem);
+      transform: translate(6.8rem, -6rem);
       position: relative;
    }
 
@@ -218,7 +219,8 @@ header label {
    }
 
    .Hero {
-      display: flex;
+      width: auto;
+      margin: 0 auto;
       background: linear-gradient(rgb(32, 176, 243), rgb(107, 5, 240), rgb(233, 38, 240));
    }
 }
