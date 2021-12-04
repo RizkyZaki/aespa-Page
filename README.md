@@ -6,4 +6,4 @@ Halo nama saya rizky zaki
 ini website kedua saya tentang grup kpop metaverse pertama 
 
 Bagi yang ingin mencari tahu siapa aespa ini, anda bisa mengunjungi website bikinan saya 
-[ https://rizkyzaki.github.io/aespa-Page.github.io/ ]
+[ https://rizkyzaki.github.io/aespa-Page]
