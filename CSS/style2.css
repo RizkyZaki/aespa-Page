@@ -6,11 +6,9 @@
    list-style: none;
    text-decoration: none;
 }
-
 body {
-   background: rgb(204, 228, 233);
+   height: 3000px;
 }
-
 /* DropDown */
 header {
    position: fixed;
@@ -66,6 +64,74 @@ header nav ul li:hover > ul {
 }
 /* end */
 
+/* Hero */
+.Hero {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   background-color: blueviolet;
+   height: 100vh;
+}
+
+img {
+   width: 300px;
+}
+
+.container {
+   position: relative;
+   z-index: 1;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   margin: 40px 0;
+}
+
+.container .card {
+   position: relative;
+   width: 640px;
+   height: 500px;
+   background: rgba(225, 225, 225, 0.05);
+   margin: 20px;
+   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 14px;
+}
+
+.container .card .content {
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   opacity: 0.5;
+   transition: 0.5s;
+}
+
+.container .card:hover .content {
+   opacity: 1;
+   transform: translateY(-20px);
+}
+
+.container .card .content h1 {
+   color: white;
+   letter-spacing: 3px;
+   font-weight: 600;
+   font-size: 1.6rem;
+   text-align: center;
+   margin-left: 23px;
+   line-height: 1.1em;
+}
+
+.container .card .content h1 span {
+   font-size: 1rem;
+   font-weight: 300;
+}
+
+/* End */
+
 /* Mobile Nav */
 #Menu-bar {
    display: none;
@@ -84,6 +150,10 @@ header label {
 @media (max-width: 1000px) {
    header {
       padding: 20px;
+   }
+
+   .container .card .content {
+      opacity: 1;
    }
 }
 
@@ -118,5 +188,32 @@ header label {
 
    #Menu-bar:checked ~ nav {
       display: initial;
+   }
+
+   .container .card {
+      width: 400px;
+      height: 320px;
+   }
+
+   img {
+      width: 200px;
+   }
+
+   .container .card .content {
+      opacity: 1;
+   }
+
+   .container .card .content h1 {
+      font-size: 1.2rem;
+      letter-spacing: 1px;
+   }
+
+   .container .card .content h1 span {
+      font-size: 0.8rem;
+      margin-left: 12px;
+   }
+
+   .Hero {
+      height: 600px;
    }
 }
