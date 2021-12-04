@@ -219,7 +219,6 @@ header label {
 
    .Hero {
       display: flex;
-      width: 100%;
       background: linear-gradient(rgb(32, 176, 243), rgb(107, 5, 240), rgb(233, 38, 240));
    }
 }
