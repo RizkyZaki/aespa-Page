@@ -70,7 +70,7 @@ header nav ul li:hover > ul {
    justify-content: center;
    align-items: center;
    flex-wrap: wrap;
-   background-color: blueviolet;
+   background: linear-gradient(to right, rgb(32, 176, 243), rgb(107, 5, 240), rgb(233, 38, 240));
    height: 100vh;
 }
 
@@ -215,5 +215,6 @@ header label {
 
    .Hero {
       height: 600px;
+      background: linear-gradient(rgb(32, 176, 243), rgb(107, 5, 240), rgb(233, 38, 240));
    }
 }
