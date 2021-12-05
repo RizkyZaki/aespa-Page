@@ -29,6 +29,7 @@ a {
    background-position: top center;
    position: relative;
    z-index: 1;
+   background-attachment: fixed;
 }
 
 #hero::after {
@@ -212,6 +213,7 @@ header nav ul li a:hover {
    bottom: 0;
    width: 100%;
    display: none;
+   background-attachment: fixed;
    border-top-left-radius: 15px;
    border-top-right-radius: 15px;
    z-index: 9999;
@@ -362,9 +364,19 @@ header nav ul li a:hover {
       padding: 2.5rem;
       flex-direction: column;
    }
+
    #Dis .dis-img {
       min-width: 100%;
       max-width: 100%;
       transform: translate(0, -8rem);
+   }
+
+   #Dis .dis-info {
+      font-size: 1.3em;
+   }
+
+   #about .section-top p {
+      font-size: 1.3em;
+      padding: 20px;
    }
 }
