@@ -215,6 +215,12 @@ header label {
 .container-lyrics h2 {
    margin-bottom: 3rem;
 }
+
+.warna-credit {
+   text-transform: uppercase;
+   color: purple;
+   font-weight: bold;
+}
 /* end */
 
 /* Media Query */
