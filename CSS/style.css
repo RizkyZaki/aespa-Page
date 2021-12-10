@@ -317,7 +317,7 @@ header nav ul li a:hover {
 }
 
 .readmore-btn:hover {
-   background: linear-gradient(to right, rgb(126, 206, 244), rgb(161, 131, 199), rgb(223, 63, 238));
+   background: linear-gradient(to left, rgb(126, 206, 244), rgb(161, 131, 199), rgb(223, 63, 238));
 }
 /* end */
 
