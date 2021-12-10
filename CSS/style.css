@@ -166,7 +166,7 @@ header {
    display: flex;
    align-items: center;
    justify-content: center;
-   background: linear-gradient(to right, rgb(126, 206, 244), rgb(113, 79, 157), rgb(176, 148, 196));
+   background: linear-gradient(to right, rgb(126, 206, 244), rgb(161, 131, 199), rgb(223, 63, 238));
    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.1);
    z-index: 9999;
 }
@@ -207,7 +207,7 @@ header nav ul li a:hover {
 /* Navbar Mobile */
 
 .navbar-mobile {
-   background: linear-gradient(to right, rgb(126, 206, 244), rgb(113, 79, 157), rgb(176, 148, 196));
+   background: linear-gradient(to right, rgb(126, 206, 244), rgb(161, 131, 199), rgb(223, 63, 238));
    overflow: hidden;
    position: fixed;
    bottom: 0;
@@ -312,12 +312,12 @@ header nav ul li a:hover {
    text-transform: uppercase;
    font-size: 1.2rem;
    color: #ffff;
-   background-image: linear-gradient(to right, rgb(126, 206, 244), rgb(113, 79, 157), rgb(176, 148, 196));
+   background: linear-gradient(to right, rgb(126, 206, 244), rgb(161, 131, 199), rgb(223, 63, 238));
    border-radius: 0.8rem;
 }
 
 .readmore-btn:hover {
-   background-image: linear-gradient(to left, rgb(126, 206, 244), rgb(113, 79, 157), rgb(176, 148, 196));
+   background: linear-gradient(to left, rgb(126, 206, 244), rgb(161, 131, 199), rgb(224, 56, 240));
 }
 /* end */
 
@@ -349,31 +349,31 @@ header nav ul li a:hover {
       display: flex;
    }
 
-   #Dis {
+   /* #Dis {
       max-width: 80rem;
    }
 
    .dis-img {
       min-width: 30rem;
       max-width: 30rem;
-   }
+   } */
 }
 
 @media screen and (max-width: 868px) {
-   #Dis {
+   /* #Dis {
       padding: 2.5rem;
       flex-direction: column;
-   }
-
+   } */
+   /* 
    #Dis .dis-img {
       min-width: 100%;
       max-width: 100%;
       transform: translate(0, -8rem);
-   }
-
+   } */
+   /* 
    #Dis .dis-info {
       font-size: 1.3em;
-   }
+   } */
 
    #about .section-top p {
       font-size: 1.3em;
