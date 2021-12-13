@@ -349,31 +349,31 @@ header nav ul li a:hover {
       display: flex;
    }
 
-   /* #Dis {
+   #Dis {
       max-width: 80rem;
    }
 
    .dis-img {
       min-width: 30rem;
       max-width: 30rem;
-   } */
+   }
 }
 
 @media screen and (max-width: 868px) {
-   /* #Dis {
+   #Dis {
       padding: 2.5rem;
       flex-direction: column;
-   } */
-   /* 
+   }
+
    #Dis .dis-img {
       min-width: 100%;
       max-width: 100%;
       transform: translate(0, -8rem);
-   } */
-   /* 
+   }
+
    #Dis .dis-info {
       font-size: 1.3em;
-   } */
+   }
 
    #about .section-top p {
       font-size: 1.3em;
